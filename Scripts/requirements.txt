@@ -1,0 +1,32 @@
+# Python dependencies for VTU Results Fetcher
+# Compatible with TensorFlow 2.19.0, Keras 3.10.0, Python 3.10.12
+
+# Core ML stack (GPU only - requires CUDA/cuDNN)
+tensorflow[and-cuda]==2.19.0
+keras==3.10.0
+
+# Supporting math + vision
+numpy==1.26.4
+opencv-python==4.10.0.84
+pillow==11.0.0
+
+# Data processing (for training)
+pandas==2.2.2
+matplotlib==3.9.0
+
+# Web automation
+selenium==4.25.0
+webdriver-manager==4.0.2
+
+# Web API + communication
+flask==3.0.3
+flask-cors==5.0.0
+requests==2.32.3
+
+# Optional OCR fallback (requires system Tesseract runtime installed separately)
+# Install Tesseract: sudo apt-get install tesseract-ocr (Linux) or download from GitHub (Windows)
+pytesseract==0.3.13
+
+# Note: google.colab is only needed if running in Google Colab
+# For local training, comment out or remove this line
+# google-colab (not needed for local deployment)

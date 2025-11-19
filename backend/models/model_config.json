@@ -1,0 +1,12 @@
+{
+  "img_height": 75,
+  "img_width": 160,
+  "captcha_length": 6,
+  "num_classes": 54,
+  "characters": "23456789ABCDEFGHJKLMNPRSTUVWXYZabcdefghjkmnprstuvwxyz",
+  "batch_size": 128,
+  "epochs_trained": 15,
+  "best_val_loss": 2.211533546447754,
+  "char_accuracy": 0.8693664692248262,
+  "full_accuracy": 0.22585629667782642
+}
